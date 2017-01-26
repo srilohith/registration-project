@@ -1,0 +1,14 @@
+assets:
+  overrides:
+    /: ../frontend/
+
+server:
+  rootPath: '/api/*'
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: root
+  password: 2001
+  url: jdbc:mysql://localhost:3306/whtsondb
+  properties:
+    charSet: UTF-8
